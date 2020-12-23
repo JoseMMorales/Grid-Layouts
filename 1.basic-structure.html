@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Structure</title>
+  <style>
+
+    .parent {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      height: 100vh;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 20px;
+      font-size: 2em;
+    }
+    .color-header { background-color: rgb(43, 214, 226); }
+    .color-main { background-color: rgb(104, 199, 88); }
+    .color-footer { background-color: rgb(211, 79, 200); }
+
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <header class="color-header section">Header Content</header>
+    <div class="color-main section">Main Content</div>
+    <footer class="color-footer section">Footer Content</footer>
+  </div>
+</body>
+</html>

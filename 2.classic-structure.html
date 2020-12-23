@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classic Structure</title>
+  <style>
+
+    div { font-size: 2rem; }
+    
+    .parent {
+      display: grid;
+      grid-template: auto 1fr auto / auto 1fr auto;
+      height: 100vh;
+    }
+
+    header { grid-column: 1/4; }
+    .main-left { grid-column: 1/2; }
+    main { grid-column: 2/3; }
+    .main-right { grid-column: 3/4; }
+    footer { grid-column: 1/4; }
+
+    .box-main { padding: 20px; }
+    .box-header-footer { padding: 2rem; }
+
+    .color-header { background-color: #ffc0cb; }
+    .color-left { background-color: rgb(43, 214, 226); }
+    .color-main { background-color: rgb(216, 87, 221); }
+    .color-right { background-color: rgb(228, 189, 83); }
+    .color-footer { background-color: rgb(86, 167, 86); }
+
+    @media only screen and (max-width: 425px) {
+      .parent { grid-template-rows: auto 1fr 1fr 1fr auto }
+
+      .main-left { 
+        grid-column: 1/4; 
+        grid-row: 2;
+      }
+      main { 
+        grid-column: 1/4; 
+        grid-row: 3;
+      }
+      .main-right { 
+        grid-column: 1/4; 
+        grid-row: 4;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <header class="header color-header box-header-footer">Header</header>
+    <div class="main-left color-left box-main">Left Side</div>
+    <main class="color-main box-main">Main Content</main>
+    <div class="main-right color-right box-main">Right Side</div>
+    <footer class="footer color-footer box-header-footer">Footer</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+  <style>
+    .parent {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      justify-content: space-between;
+      background-color: rgb(233, 233, 113);
+    }
+
+    .box {
+      width: 100%;
+      height: 200px;
+    }
+
+    .color-box1 { background-color: #ffc0cb }
+    .color-box2 { background-color: rgb(120, 216, 223) }
+    .color-box3 { background-color: rgb(101, 216, 111) }
+
+    @media only screen and (max-width: 425px) {
+      .parent { grid-template-columns: none }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="parent">
+    <div class="card">
+      <h3>Title - Card 1</h3>
+      <p>Medium length description with a few more words here</p>
+      <div class="box color-box1"></div>
+    </div>
+    <div class="card">
+      <h3>Title - Card 2</h3>
+      <p>Long description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quae!</p>
+      <div class="box color-box2"></div>
+    </div>
+    <div class="card">
+      <h3>Title - Card 3</h3>
+      <p>Short description</p>
+      <div class="box color-box3"></div>
+    </div>
+  </div>
+</body>
+
+</html>

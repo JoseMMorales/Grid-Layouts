@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Grid</title>
+  <style>
+    .parent {
+      display: grid;
+      grid-template-columns: 100px 1fr 100px;
+      grid-template-rows: 100px 1fr 100px;
+      grid-template-areas:
+        "element1 element1 element1"
+        "element2 element3 element4"
+        "element5 element5 element5";
+      height: 100vh;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    .header { grid-area: element1 }
+    .main-left { grid-area: element2 }
+    .main-center { grid-area: element3 }
+    .main-right { grid-area: element4 }
+    .footer{ grid-area: element5 }
+
+    .color-header { background-color: #ffc0cb; }
+    .color-left { background-color: rgb(43, 214, 226); }
+    .color-main { background-color: rgb(216, 87, 221); }
+    .color-right { background-color: rgb(228, 189, 83); }
+    .color-footer { background-color: rgb(86, 167, 86); }
+
+    @media only screen and (max-width: 425px) {
+      .parent {
+        grid-template-columns: none;
+        grid-template-rows: 50px 1fr 1fr 1fr 50px;
+        grid-template-areas:
+          "element1"
+          "element2" 
+          "element3" 
+          "element4"
+          "element5";
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <header class="header color-header">Header</header>
+    <div class="main-left color-left">Left Side</div>
+    <main class="main-center color-main">Main Content</main>
+    <div class="main-right color-right">Right Side</div>
+    <footer class="footer color-footer">Footer</footer>
+  </div>
+</body>
+</html>

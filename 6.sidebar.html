@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+  <style>
+    .parent {
+      display: grid;
+      grid-template-columns: minmax(150px, 25%) 1fr;
+      height: 100vh;
+    }
+    .box {
+      border:1px solid black;
+      border-radius: 10px;
+      font-size: 2em;
+    }
+    .parent > div:nth-child(1) { background-color: rgb(208, 226, 43); }
+    .parent > div:nth-child(2) { background-color: #7f00ff; }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="box">
+      <p>Min:150px/</p>
+      <p>Max:25%</p>
+    </div>
+    <div class="box">
+      <p>This element takes the second grid position (1fr), meaning it takes up the rest of the remaining space</p>
+    </div>
+  </div>
+</body>
+</html>
