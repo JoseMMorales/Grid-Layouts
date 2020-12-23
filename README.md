@@ -36,9 +36,9 @@ Grid-template-columns is very powerfull when we use repeat and min max functions
 </p>
 <div align="center">
 
-**Medium Device View**  | **Small Device View** 
- ------------- | ------------- 
- ![Screenshot 2020-12-23 at 12 47 32](https://user-images.githubusercontent.com/43299285/102993206-07abcd80-451d-11eb-88ce-c9333c18387e.png)  | ![Screenshot 2020-12-23 at 12 51 11](https://user-images.githubusercontent.com/43299285/102993491-8bfe5080-451d-11eb-87f5-b8cb6f8fdce6.png) 
+|**Medium Device View**  | **Small Device View** |
+| ------------- | ------------- |
+| ![Screenshot 2020-12-23 at 12 47 32](https://user-images.githubusercontent.com/43299285/102993206-07abcd80-451d-11eb-88ce-c9333c18387e.png)  | ![Screenshot 2020-12-23 at 12 51 11](https://user-images.githubusercontent.com/43299285/102993491-8bfe5080-451d-11eb-87f5-b8cb6f8fdce6.png) |
 
 </div>
 
@@ -64,9 +64,9 @@ Again grid-template-columns and repeat function a great combination to create re
 
 <div align="center">
 
-**Medium Device View**  | **Small Device View** 
- ------------- | ------------- 
- ![Screenshot 2020-12-23 at 13 13 54](https://user-images.githubusercontent.com/43299285/102995151-b69dd880-4520-11eb-8b53-6bb35852c771.png) | ![Screenshot 2020-12-23 at 13 11 53](https://user-images.githubusercontent.com/43299285/102994996-6e7eb600-4520-11eb-91ef-cf60e2e98377.png) 
+|**Medium Device View**  | **Small Device View** |
+| ------------- | ------------- |
+| ![Screenshot 2020-12-23 at 13 13 54](https://user-images.githubusercontent.com/43299285/102995151-b69dd880-4520-11eb-8b53-6bb35852c771.png) | ![Screenshot 2020-12-23 at 13 11 53](https://user-images.githubusercontent.com/43299285/102994996-6e7eb600-4520-11eb-91ef-cf60e2e98377.png) |
 
 </div>
 
