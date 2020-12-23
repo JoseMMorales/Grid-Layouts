@@ -31,7 +31,10 @@ Functions: [repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat()) a
 Grid-template-columns is very powerfull when we use repeat and min max functions controlling sizes of the elements and making them all responsive no matter size of the screen.
 
 #### **Big Device View**
-![Screenshot 2020-12-23 at 12 31 51](https://user-images.githubusercontent.com/43299285/102992079-d7fbc600-451a-11eb-9d26-494928f8ab05.png)
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/43299285/102992079-d7fbc600-451a-11eb-9d26-494928f8ab05.png">
+</p>
+<!-- ![Screenshot 2020-12-23 at 12 31 51](https://user-images.githubusercontent.com/43299285/102992079-d7fbc600-451a-11eb-9d26-494928f8ab05.png) -->
 
 |**Medium Device View**  | **Small Device View** |
 | ------------- | ------------- |
@@ -53,7 +56,10 @@ Function: [repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat())
 Again grid-template-columns and repeat function a great combination to create responsive elements, as you can see below adaptable to all devices with a simple line CSS code.
 
 #### **Big Device View**
-![Screenshot 2020-12-23 at 13 10 42](https://user-images.githubusercontent.com/43299285/102994888-44c58f00-4520-11eb-907f-425c1b69dcbc.png)
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/43299285/102994888-44c58f00-4520-11eb-907f-425c1b69dcbc.png">
+</p>
+<!-- ![Screenshot 2020-12-23 at 13 10 42](https://user-images.githubusercontent.com/43299285/102994888-44c58f00-4520-11eb-907f-425c1b69dcbc.png) -->
 
 |**Medium Device View**  | **Small Device View** |
 | ------------- | ------------- |
@@ -67,7 +73,10 @@ Function: [minmax](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax())
 
 Handling sidebars in a website is pretty easy with GRID, just use grid-template-columns and minmax function to fit the element and decide how size will be based on your needs.
 
-![Screenshot 2020-12-23 at 13 20 23](https://user-images.githubusercontent.com/43299285/102995567-9fabb600-4521-11eb-85f5-bd9cd70a733c.png)
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/43299285/102995567-9fabb600-4521-11eb-85f5-bd9cd70a733c.png">
+</p>
+<!-- ![Screenshot 2020-12-23 at 13 20 23](https://user-images.githubusercontent.com/43299285/102995567-9fabb600-4521-11eb-85f5-bd9cd70a733c.png) -->
 
 ### **7.Span-Grid**
 Property: [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns).
@@ -75,19 +84,18 @@ Property: [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/C
 Function: [repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat())
 
 This is just ademostration that everything is possible with GRID, even create the most senseless layouts like this one. Very funny, isn't?...
-
-![Screenshot 2020-12-23 at 13 41 38](https://user-images.githubusercontent.com/43299285/102997108-97a14580-4524-11eb-922d-071fff0586ab.png)
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/43299285/102997108-97a14580-4524-11eb-922d-071fff0586ab.png">
+</p>
 
 ### **8. Super-Centered**
 Property: [place-items](https://developer.mozilla.org/en-US/docs/Web/CSS/place-items)
 
 When you apply place-items to an element it will be centered in your page so no additional properties are needed, you will save time trying to set up your element in both Axis (X and Y). It will do it for you!.
 
-<!-- ![Screenshot 2020-12-23 at 13 39 23](https://user-images.githubusercontent.com/43299285/102996942-46915180-4524-11eb-87cc-d00a601456b2.png?style=center) -->
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102996942-46915180-4524-11eb-87cc-d00a601456b2.png">
 </p>
-<!-- <img style="align-items:center" src="https://user-images.githubusercontent.com/43299285/102996942-46915180-4524-11eb-87cc-d00a601456b2.png"> -->
 
 ## Getting Started
 These instructions will get you a copy of the project up on your local machine to practice with GRID exercises.
