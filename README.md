@@ -34,10 +34,13 @@ Grid-template-columns is very powerfull when we use repeat and min max functions
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102992079-d7fbc600-451a-11eb-9d26-494928f8ab05.png">
 </p>
+<center>
 
 |**Medium Device View**  | **Small Device View** |
 | ------------- | ------------- |
 | ![Screenshot 2020-12-23 at 12 47 32](https://user-images.githubusercontent.com/43299285/102993206-07abcd80-451d-11eb-88ce-c9333c18387e.png)  | ![Screenshot 2020-12-23 at 12 51 11](https://user-images.githubusercontent.com/43299285/102993491-8bfe5080-451d-11eb-87f5-b8cb6f8fdce6.png) |
+
+</center>
 
 ### **4.Area-Structure**
 Properties: [grid-template-rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows), [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns), [grid-template-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas) and [grid-area](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area).
@@ -59,9 +62,13 @@ Again grid-template-columns and repeat function a great combination to create re
 <img src="https://user-images.githubusercontent.com/43299285/102994888-44c58f00-4520-11eb-907f-425c1b69dcbc.png">
 </p>
 
+<center>
+
 |**Medium Device View**  | **Small Device View** |
 | ------------- | ------------- |
 | ![Screenshot 2020-12-23 at 13 13 54](https://user-images.githubusercontent.com/43299285/102995151-b69dd880-4520-11eb-8b53-6bb35852c771.png) | ![Screenshot 2020-12-23 at 13 11 53](https://user-images.githubusercontent.com/43299285/102994996-6e7eb600-4520-11eb-91ef-cf60e2e98377.png) |
+
+</center>
 
 ### **6.Sidebar**
 
