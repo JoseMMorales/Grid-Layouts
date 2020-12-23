@@ -20,6 +20,7 @@ Properties: [Grid-template](https://developer.mozilla.org/en-US/docs/Web/CSS/gri
 
 Grid template is very useful to place elements in a screen mixing columns, rows and areas. Using grid-column to decide situation and size of the element.
 
+### Desktop/Mobile Views
 ![Screenshot 2020-12-23 at 12 14 29](https://user-images.githubusercontent.com/43299285/102990873-6a4e9a80-4518-11eb-850e-963f90faa9cf.png)
 
 ### **3.Repeat-auto**
@@ -47,6 +48,7 @@ Properties: [grid-template-rows](https://developer.mozilla.org/en-US/docs/Web/CS
 
 Specifying grid areas you may set all your website up as you wish, assigning cells to any element based on structure, size and location.
 
+### Desktop/Mobile Views
 ![Screenshot 2020-12-23 at 13 05 39](https://user-images.githubusercontent.com/43299285/102994552-91f53100-451f-11eb-83b8-4dcfbe7df3df.png)
 
 ### **5.Cards-Lined Up**
@@ -78,6 +80,7 @@ Function: [minmax](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax())
 
 Handling sidebars in a website is pretty easy with GRID, just use grid-template-columns and minmax function to fit the element and decide how size will be based on your needs.
 
+### Desktop/Mobile Views
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102995567-9fabb600-4521-11eb-85f5-bd9cd70a733c.png">
 </p>
@@ -88,6 +91,8 @@ Property: [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/C
 Function: [repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat())
 
 This is just ademostration that everything is possible with GRID, even create the most senseless layouts like this one. Very funny, isn't?...
+
+### Desktop/Mobile Views
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102997108-97a14580-4524-11eb-922d-071fff0586ab.png">
 </p>
@@ -97,6 +102,7 @@ Property: [place-items](https://developer.mozilla.org/en-US/docs/Web/CSS/place-i
 
 When you apply place-items to an element it will be centered in your page so no additional properties are needed, you will save time trying to set up your element in both Axis (X and Y). It will do it for you!.
 
+### Desktop/Mobile Views
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102996942-46915180-4524-11eb-87cc-d00a601456b2.png">
 </p>
