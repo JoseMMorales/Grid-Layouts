@@ -34,7 +34,6 @@ Grid-template-columns is very powerfull when we use repeat and min max functions
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102992079-d7fbc600-451a-11eb-9d26-494928f8ab05.png">
 </p>
-<!-- ![Screenshot 2020-12-23 at 12 31 51](https://user-images.githubusercontent.com/43299285/102992079-d7fbc600-451a-11eb-9d26-494928f8ab05.png) -->
 
 |**Medium Device View**  | **Small Device View** |
 | ------------- | ------------- |
@@ -59,7 +58,6 @@ Again grid-template-columns and repeat function a great combination to create re
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102994888-44c58f00-4520-11eb-907f-425c1b69dcbc.png">
 </p>
-<!-- ![Screenshot 2020-12-23 at 13 10 42](https://user-images.githubusercontent.com/43299285/102994888-44c58f00-4520-11eb-907f-425c1b69dcbc.png) -->
 
 |**Medium Device View**  | **Small Device View** |
 | ------------- | ------------- |
@@ -76,7 +74,6 @@ Handling sidebars in a website is pretty easy with GRID, just use grid-template-
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102995567-9fabb600-4521-11eb-85f5-bd9cd70a733c.png">
 </p>
-<!-- ![Screenshot 2020-12-23 at 13 20 23](https://user-images.githubusercontent.com/43299285/102995567-9fabb600-4521-11eb-85f5-bd9cd70a733c.png) -->
 
 ### **7.Span-Grid**
 Property: [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns).
@@ -107,12 +104,9 @@ These instructions will get you a copy of the project up on your local machine t
 * Right click on index.html file and select "Copy path".
 * Open window browser and paste URL.
 
-## Library version:
-<!-- * Node JS v10.16.3
-* Bootstrap v4.5.2
-* JQuery v3.5.1
-* React-scroll v1.8.1
-* React-dom v16.13.1 -->
+## Technology:
+* HTML5
+* Grid CSS
 
 ## Author
 Jose MMorales
