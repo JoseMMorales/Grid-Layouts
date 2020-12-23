@@ -76,7 +76,7 @@ Function: [repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat())
 
 This is just ademostration that everything is possible with GRID, even create the most senseless layouts like this one. Very funny, isn't?...
 
-![Screenshot 2020-12-23 at 13 24 45](https://user-images.githubusercontent.com/43299285/102995865-3bd5bd00-4522-11eb-9032-fc211204cf3c.png)
+![Screenshot 2020-12-23 at 13 41 38](https://user-images.githubusercontent.com/43299285/102997108-97a14580-4524-11eb-922d-071fff0586ab.png)
 
 ### **8. Super-Centered**
 Property: [place-items](https://developer.mozilla.org/en-US/docs/Web/CSS/place-items)
