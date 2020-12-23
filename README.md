@@ -83,7 +83,7 @@ Property: [place-items](https://developer.mozilla.org/en-US/docs/Web/CSS/place-i
 
 When you apply place-items to an element it will be centered in your page so no additional properties are needed, you will save time trying to set up your element in both Axis (X and Y). It will do it for you!.
 
-![Screenshot 2020-12-23 at 13 39 23](https://user-images.githubusercontent.com/43299285/102996942-46915180-4524-11eb-87cc-d00a601456b2.png?style=centerme)
+![Screenshot 2020-12-23 at 13 39 23](https://user-images.githubusercontent.com/43299285/102996942-46915180-4524-11eb-87cc-d00a601456b2.png?style=center)
 
 ## Getting Started
 These instructions will get you a copy of the project up on your local machine to practice with GRID exercises.
