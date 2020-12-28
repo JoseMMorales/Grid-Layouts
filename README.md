@@ -1,8 +1,8 @@
 # Grid-Layouts
 
-Very funny and enjoyable repo I have to say... [GRID](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) is the new guy in CSS to build your responsive websites up, it gives you totally freedom to leave old style CSS behind (floats and so on...). Based on 2 dimensional system, handling columns and rows from parent containers till children elements.
+Very funny and enjoyable repo I have to say... [GRID](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) is the new guy in CSS to build your responsive websites up, it gives you totally freedom to leave old style CSS behind (floats and so on...). Based on 2 dimensional system, handling columns and rows from parent containers to children elements.
 
-NOTE!! All CSS StyleSheet has been embedded to each HTML file to improve understanding on each layout.
+NOTE!! All CSS StyleSheet has been embedded to each HTML file to improve the understanding on each layout.
 
 ## What I did in each Layout:
 ### **1.Basic Structure**
@@ -18,7 +18,7 @@ Grid-template-row manages to fit sections by using auto and 1fr (Fractional Unit
 Properties: [Grid-template](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template) and 
 [grid-column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
 
-Grid template is very useful to place elements in a screen mixing columns, rows and areas. Using grid-column to decide situation and size of the element.
+Grid template is very useful to place elements in a screen mixing columns, rows and areas. Using grid-column to decide situation and element sizes.
 
 ### Desktop/Mobile Views
 ![Screenshot 2020-12-23 at 12 14 29](https://user-images.githubusercontent.com/43299285/102990873-6a4e9a80-4518-11eb-850e-963f90faa9cf.png)
@@ -29,12 +29,13 @@ Properties: [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web
 
 Functions: [repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat()) and [minmax](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax())
 
-Grid-template-columns is very powerfull when we use repeat and min max functions controlling sizes of the elements and making them all responsive no matter size of the screen.
+Grid-template-columns is very powerfull when we use repeat and min max functions controlling sizes of the elements and making them all responsive no matter the size of the screen.
 
 #### **Big Device View**
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/43299285/102992079-d7fbc600-451a-11eb-9d26-494928f8ab05.png">
 </p>
+
 <div align="center">
 
 |**Medium Device View**  | **Small Device View** |
@@ -46,7 +47,7 @@ Grid-template-columns is very powerfull when we use repeat and min max functions
 ### **4.Area-Structure**
 Properties: [grid-template-rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows), [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns), [grid-template-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas) and [grid-area](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area).
 
-Specifying grid areas you may set all your website up as you wish, assigning cells to any element based on structure, size and location.
+Specifying grid areas you can set all your website up as you wish, assigning cells to any element based on structure, size and location.
 
 ### Desktop/Mobile Views
 ![Screenshot 2020-12-23 at 13 05 39](https://user-images.githubusercontent.com/43299285/102994552-91f53100-451f-11eb-83b8-4dcfbe7df3df.png)
@@ -78,7 +79,7 @@ Property: [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/C
 
 Function: [minmax](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax())
 
-Handling sidebars in a website is pretty easy with GRID, just use grid-template-columns and minmax function to fit the element and decide how size will be based on your needs.
+Handling sidebars in a website is pretty easy with GRID, just use grid-template-columns and minmax function to fit the element into the layout.
 
 ### Desktop/Mobile Views
 <p align="center"> 
@@ -90,7 +91,7 @@ Property: [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/C
 
 Function: [repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat())
 
-This is just ademostration that everything is possible with GRID, even create the most senseless layouts like this one. Very funny, isn't?...
+This is just a demostration that everything is possible with GRID, even creating the most senseless layouts like this one. Very funny, isn't?...
 
 ### Desktop/Mobile Views
 <p align="center"> 
